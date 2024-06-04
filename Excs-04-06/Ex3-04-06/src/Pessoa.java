@@ -13,10 +13,15 @@ public class Pessoa {
     }
 
     public void envelhecer(int anos){
-        if(this.idade < 21){
-            this.altura = this.altura + (anos * 0.005f);
+        for(int i=0; i<anos; i++){
+
+            if(this.idade<21){
+                this.altura+=0.005f;
+            }
+            this.idade++;
+
         }
-        this.idade = this.idade + anos;
+
     }
     public void engordar(float maikg){
         this.peso = this.peso + maikg;

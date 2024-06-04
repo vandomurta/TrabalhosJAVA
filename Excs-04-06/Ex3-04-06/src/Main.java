@@ -1,3 +1,13 @@
+
+/*Classe Pessoa: Crie uma classe que modele uma pessoa:
+
+Atributos: nome, idade, peso e altura
+Métodos: Envelhercer, engordar, emagrecer, crescer.
+Obs: Por padrão, a cada ano que nossa pessoa envelhece,
+sendo a idade dela menor que 21 anos,
+ela deve crescer 0,5 cm.
+*/
+
 import java.util.Scanner;
 
 
@@ -6,7 +16,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-        Pessoa vando = new Pessoa("Vando",1,80,1.7f);
+        Pessoa vando = new Pessoa("Vando",20,80,1.7f);
 
 
         System.out.println("O nome é:");
